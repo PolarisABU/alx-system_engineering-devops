@@ -1,1 +1,2 @@
-echo $(( 16#$hexNum ))
+#!/bin/bash
+printf '%x\n' $DECIMAL

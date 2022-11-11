@@ -3,22 +3,22 @@
 #include "unistd.h"
 
 /**
- *  * infinite_while - a function that runs forever and returns nothing
- *   * Return: 0 in the end
- *    */
+ * infinite_while - a function that runs forever and returns nothing
+ * Return: 0 in the end
+ */
 int infinite_while(void)
 {
-		while (1)
-				{
-							sleep(1);
-								}
-			return (0);
+	while (1)
+	{
+		sleep(1);
+	}
+	return (0);
 }
 
 /**
- *  * main - the entry to a program that creates 5 zombie process
- *   * Return: 0 on success
- *    */
+ * main - the entry to a program that creates 5 zombie process
+ * Return: 0 on success
+ */
 int main(void)
 {
 	int children = 0;

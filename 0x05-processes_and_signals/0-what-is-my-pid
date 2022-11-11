@@ -1,0 +1,3 @@
+splays its own process ID.
+
+echo $$
